@@ -30,15 +30,21 @@
 # ---------------------------------------------------------------------------
 
 #EXTINF:-1 group-title="Sports",Fox Sports 1 4K
-https://viznf.gdgdfhbdfidsf.xyz/1781569785/bbcf72eaba444c378b576a9d7d432cda/ebLTppkng46Wm5kIL4gu5SJy7GqsFo9gQ-rHQHfTANA/fox-sports-1-4k.m3u8
+https://viznf.gdgdfhbdfidsf.xyz/1781579228/9bb096c68da643e4864ead247885622e/vYsEBp4jAI9gVtqYTH3ftJJfvyHix69yQpYnJwMMsLg/fox-sports-1-4k.m3u8
 
 
-
-#EXTINF:-1 group-title="Sports",Fox Sports 2 4K
-https://viznf.gdgdfhbdfidsf.xyz/1781569827/2b5c5cb8c4ee485f87fe886e91be02db/lrX7YdkcodSoJPTzjI6tRDxirJ3BkGY0PLVZf759HAs/fox-sports-1-4k.m3u8
+#EXTINF:-1 group-title="Sports",Fusball TV 4K
+https://viznf.gdgdfhbdfidsf.xyz/1781579248/bd3a86243a2d4005adce958c49872443/IGrxypdJO55NJEXMyr_xhuikcukRZQDJjMwEatgoINA/fusballtvuhd-de.m3u8
 
 #EXTINF:-1 group-title="Sports",Fox Sports Prime Video FHD
-https://viznf.gdgdfhbdfidsf.xyz/1781573704/8e5916e3e48c4623a2712f5682007637/VHi6EVlpMa_o5ufQfPsNeQvT6Ud4ICnDbAL0gB4V76s/fox-sports-1-fhd.m3u8
+https://viznf.gdgdfhbdfidsf.xyz/1781579198/cb38e6038ffd4fc486d427edcc4d2485/sGQ_eOhvShChmOVJQfqyxhZHKK_QSwn8W07fD8lOjLA/fox-sports-1-fhd.m3u8
+
+#EXTINF:-1 group-title="Sports",BBC ONE
+https://viznf.gdgdfhbdfidsf.xyz/1781579299/d066956f16ac40ed8588353d51288d5f/mgTj3zaSVzivNGTV1eseP7TeL7jCcR1JVzvFOpHtRWE/bbcone-uk.m3u8
+
+#EXTINF:-1 group-title="Sports",beIN Sport Max
+https://viznf.gdgdfhbdfidsf.xyz/1781579325/9482dc8df1a64a8996c2b09d01fcb3a8/E860Zurwt2DypTtezoDhANeqEaF70kuFqV4plKovqbo/beinsportsmax4-sa.m3u8
+
 # --- add more channels below, same two-line pattern ---
 # #EXTINF:-1 tvg-logo="https://example.com/cnn.png" group-title="News",CNN
 # https://viznf.gdgdfhbdfidsf.xyz/<timestamp>/<hash>/<sig>/cnn.m3u8
