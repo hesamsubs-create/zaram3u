@@ -1,0 +1,40 @@
+#EXTM3U
+# ---------------------------------------------------------------------------
+# Tizen IPTV — aggregated channel playlist
+#
+# HOW THIS WORKS
+#   The app loads this file by URL (Settings -> "M3U playlist URL"). Each
+#   channel is two lines: an #EXTINF metadata line (name/logo/group — these
+#   are PERMANENT, you never retype them) followed by the stream URL line.
+#
+#   Your stream URLs carry rotating tokens, e.g.:
+#     https://<host>/<timestamp>/<hash>/<sig>/<slug>.m3u8
+#   Only the URL line expires. When a stream dies:
+#     1. Grab a fresh URL for that channel from your source.
+#     2. Replace ONLY that channel's URL line below.
+#     3. Commit / re-upload this file.
+#     4. On the TV: Settings -> saved playlist -> Reload (or relaunch).
+#   The names, logos, groups, and order stay put.
+#
+# HOSTING
+#   Put this file somewhere with a stable, CORS-friendly URL and load the
+#   raw link in the app. Good options: GitHub Gist/raw, Cloudflare Pages,
+#   Netlify/Vercel static. (Avoid Dropbox/Drive direct links — fragile CORS.)
+#   Rename to playlist.m3u when you publish it.
+#
+# FORMAT NOTES (matches js/playlist.js parser)
+#   #EXTINF:-1 tvg-logo="<png url>" group-title="<section>",<Channel Name>
+#   <stream url>
+#   tvg-logo and group-title are optional. The text after the comma is the
+#   channel name shown in the list.
+# ---------------------------------------------------------------------------
+
+#EXTINF:-1 group-title="Sports",Fox Sports 1 4K
+https://viied.vixfiv.uk/1781585364/53fe9820517f47398487e286b4fd9aa3/aLaDsDBdL88gm5MYvcFF1-lGD2FyBP6X3u0-AKX0HU4/fox-sports-1-4k.m3u8
+
+# --- add more channels below, same two-line pattern ---
+# #EXTINF:-1 tvg-logo="https://example.com/cnn.png" group-title="News",CNN
+# https://viznf.gdgdfhbdfidsf.xyz/<timestamp>/<hash>/<sig>/cnn.m3u8
+
+# #EXTINF:-1 group-title="Movies",Example Movie Channel
+# https://viznf.gdgdfhbdfidsf.xyz/<timestamp>/<hash>/<sig>/example-movies.m3u8
